@@ -6,8 +6,6 @@ This project is a website that aims to provide I simple yet professional portfol
 
 ## Features
 
-# Mostly Functional Website:
-
 <strong>Everything that functions</strong>
 - All links work.
 - Hover elements work.
