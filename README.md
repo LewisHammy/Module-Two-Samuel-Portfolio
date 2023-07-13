@@ -19,10 +19,11 @@ This project is a website that aims to provide I simple yet professional portfol
 
 ## Visuals
 
-<strong></strong>
+![Module-2-mobile view](https://github.com/LewisHammy/Module-Two-Samuel-Portfolio/assets/136273659/1eaa3518-87f8-4cf2-95f1-e851e8bf2637)
 
-<strong></strong>
+![module-2-contact-form](https://github.com/LewisHammy/Module-Two-Samuel-Portfolio/assets/136273659/870add41-9c4c-40a6-9773-237a217e32f8)
 
+![Module-2-app-view](https://github.com/LewisHammy/Module-Two-Samuel-Portfolio/assets/136273659/4f03791b-6dcd-4a44-a649-573ad1ed5d31)
 
 ## Deployed Website Link!
 
