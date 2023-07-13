@@ -2,11 +2,22 @@
 
 ## Description
 
-This READEME goes over the project, which is a website that meets the accesibility standards using various alt tags on all img elements. The website also uses proper HTML structure as well as semantic elements with heading attributes that fall in sequential order.    
+The portfolio project is a website that aims to provide I simple modern website. It is built using HTML, CSS, and JavaScript to create a dynamic and interactive user experience.
 
-## Modifications 
+## Features
 
+# Mostly Functional Website:
 
+<strong>Everything that functions</strong>
+- All links work.
+- Hover elements work.
+- Website is accesible on all platforms.
+- Mobile has cool slide navigation bar.
+
+<strong>Could Potential Work, but no function yet.</strong>
+- Resume button.
+- Applictions don't go to working site (I didn't make those apps).
+- Contact form you can type in but it does not send information to me.
 
 ## Visuals
 
@@ -15,13 +26,9 @@ This READEME goes over the project, which is a website that meets the accesibili
 <strong></strong>
 
 
-## Deployed Website
+## Deployed Website Link!
 
-
-
-## Sources
-
-
+https://lewishammy.github.io/Module-Two-Samuel-Portfolio/
 
 ## Conclusion 
 
