@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel's Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<div>
+    <section class="header">
+        <nav>
+            <!-- If I want profile icon add it below -->
+            <!-- <a href="index.html"><img src="images/zuko pfp.jpg"></a> -->
+            <div class= "nav-links" id="navLinks">
+              <!-- close icon with hide menu when clicked --> 
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#apps">APPS</a></li>
+                    <li><a href="#other">OTHER</a></li>
+                </ul>
+            </div>
+            <!-- menu icon with show menu when clicked -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<!-- middle text -->
+
+<div class="text-box">
+        <h1>Hello, <br>I'm developer.</h1>
+        <p>My name is Samuel Narayan, and in this website you will learn a little bit about me.</p> 
+        <!-- APPS meaning application -->
+        <a href="" class="hero-btn">Résumé</a>
+</div>
+
+</section>
+
+<!-- course -->
+
+<section id="about" class="apps">
+    <h1>About Me!</h1>
+    <p>I am a hardworking individual with a strong work ethic, committed to seeing every project through to completion. I have a passion for creating things, whether it's through music or coding, and I take pride in my ability to bring my ideas to life. I currently reside in California, where I draw inspiration from the vibrant culture and diverse community around me.</p>
+</section>
+
+    <div class="row">
+        <div class="skills">
+            <h3>Problem Solving</h3>
+            <p>As a problem solver, I use my ability to analyze and break down complex problems into smaller, manageable tasks.</p>
+          </div>
+          
+          <div class="skills">
+            <h3>Teamwork</h3>
+            <p>I have good teamwork skills, which are essential in a collaborative work environments.</p>
+          </div>
+
+          <div class="skills">
+            <h3>Continuous Learning</h3>
+            <p>I understand the importance of lifelong learning and actively seek opportunities to expand my expertise. Whether it's through formal courses or self-teaching.</p>
+          </div>
+    </div>
+
+<!-- main application -->
+
+<section id="apps" class="first">
+    <h1>Weather App!</h1>
+    <P> An app that shows the weather on all devices and provides alerts is a useful tool for staying up-to-date on weather conditions. The app could be designed to work on smartphones, tablets, and computers, allowing users to access weather information from anywhere. The app could provide real-time weather updates, including temperature, precipitation, wind speed, and other relevant information.</P>
+    
+    <div class="row">
+        <div class="first-col">
+            <img src="images/Weather app.jpg">
+            <div class="red">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Other Applications -->
+
+<section id="other" class="other-apps">
+    <h1>More Apps!</h1>
+
+    <div class="row">
+
+        <div class="other-apps-col">
+            <img src="images/rockpaper.jpg">
+            <div class="layer">
+                <h3>Rock-Paper-Scissors!</h3>
+            </div>
+        </div>
+      
+        <div class="other-apps-col">
+            <img src="images/drawingapp.png">
+            <div class="layer">
+                <h3>Canvas Drawing App!</h3>
+            </div>
+        </div>
+
+        <div class="other-apps-col">
+            <img src="images/PACMAN.jpg">
+            <div class="layer">
+                <h3>Pac-Man!</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact me form! -->
+
+<div id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>You can also reach me via email:someone@email.com</p>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+
+
+<!-- JavaScript -->
+<script>
+
+//smooth scrolling
+document.querySelectorAll('nav ul li a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    //id is navLinks and now it has function to show menu
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    //id hideMenu and now it has function to hide menu
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>
