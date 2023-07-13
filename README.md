@@ -6,13 +6,13 @@ This project is a website that aims to provide I simple yet professional portfol
 
 ## Features
 
-<strong>Everything that functions</strong>
+<strong>Everything that functions:</strong>
 - All links work.
 - Hover elements work.
 - Website is accesible on all platforms.
 - Mobile has cool slide navigation bar.
 
-<strong>Could Potential Work, but no function yet.</strong>
+<strong>Could Potential Work, but no function yet:</strong>
 - Resume button.
 - Applictions don't go to working site (I didn't make those apps).
 - Contact form you can type in but it does not send information to me.
